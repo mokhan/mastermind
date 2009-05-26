@@ -1,1 +1,3 @@
-# spec_helper.rb
+$: << File.join(File.dirname(__FILE__), "/../lib")
+require 'spec'
+require 'mastermind'

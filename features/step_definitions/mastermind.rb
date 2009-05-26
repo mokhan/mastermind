@@ -5,7 +5,7 @@ end
 
 When /^I start a new game$/ do
 	@messenger = StringIO.new
-	Mastermind::Game.new(@messenger)
+	game =Mastermind::Game.new(@messenger)
 	game.start
 end
 
