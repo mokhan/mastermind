@@ -6,6 +6,7 @@ module Mastermind
 		end
 		def start 
 			@messenger.puts "Welcome to Mastermind!"
+			@messenger.puts "Enter guess:"
 
 		end
 	end
