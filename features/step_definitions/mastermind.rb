@@ -4,7 +4,7 @@ def messenger
 end
 
 def game
-	@game = ||= Mastermind::Game.new(messenger)
+	@game ||= Mastermind::Game.new(messenger)
 end
 
 def messages_should_include(message)
